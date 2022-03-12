@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Lyk Me</title>
+</head>
+<body>
+ <!--HEADER BEGINS-->
+ <header>
+ <nav>
+ <div id="quicklinks">
+ <ul>
+ <li><a href ="#"> <img src="lykmelogo.jpeg" alt="Lyk Me Logo"> </a></li>   
+ <li><a href ="#">Home</a></li>
+ <li><a href ="#">About Us</a></li>
+ <li><a href ="#">Login</a></li>
+ <li><a href ="#">Sign Up</a></li>
+ </ul>
+ </div>
+ </nav>
+ </header>
+ <!--HEADER ENDS-->
+ <!--MAIN BEGINS-->
+ <main>
+ <section>
+ <h2>New Registration</h2>
+ <div class="container">
+    <form action="#">
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">First Name</label> 
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="lname">Last Name</label> 
+            </div>
+            <div class="col-75">
+                <input type="text" id="lname" name="lastname">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email">Email</label> 
+            </div>
+            <div class="col-75">
+                <input type="text" id="email" name="email">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="dob">Date of Birth</label> 
+            </div>
+            <div class="col-75">
+                <input type="date" id="dob" name="dateofbirth">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="pwd">Password</label> 
+            </div>
+            <div class="col-75">
+                <input type="text" id="pwd" name="password">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="confirmpwd">Confirm Password</label> 
+            </div>
+            <div class="col-75">
+                <input type="text" id="confirmpwd" name="confirmpassword" minlength="8" required>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="gender">Gender</label>   
+            </div>
+            <div class="col-75">
+                <label>
+                    <input type="radio" name="gender" value="male"> Male
+                </label> 
+                <label>
+                    <input type="radio" name="gender" value="female"> Female
+                </label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="locn">Location</label> 
+            </div>
+            <div class="col-75">
+                <select id="location" name="location">
+                    <option value="aberdeen">Aberdeen</option>
+                    <option value="glasgow">Glasgow</option>
+                    <option value="dundee">Dundee</option>
+                    <option value="perth">Perth</option>
+                    <option value="inverness">Inverness</option>
+                    <option value="stirling">Stirling</option>
+                  </select>
+            </div>
+        </div>
+        <label>
+            <input type="checkbox" name="termsofuse"> <p>I agree to the <a href="#">Terms of Use</a> and <a href="#">privacy policy</a>.</p>
+        </label>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+ </div>
+ </section>
+ </main>
+ <!--MAIN ENDS-->
+ <!--FOOTER BEGINS HERE-->
+ <footer>
+    <ul>   
+        <li><a href ="#">Feedback</a></li>
+        <li><a href ="#">Home</a></li>
+        <li><address>Contact us</address></li>
+    </ul>
+ </footer>
+ <!--FOOTER ENDS HERE-->
+</body>
+</html>
